@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:7775](http://localhost:7775) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -68,3 +68,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## amper_steffi_coding_assignment11
+
+This project was bootstrapped with Create React App and containerized using Docker.
+
+### Project Setup
+
+First, clone the repository to your local machine:
+git clone https://github.com/pherlalu/amper_steffi_coding_assignment11.git
+
+### Navigate to the project directory:
+
+cd amper_steffi_coding_assignment11
+
+## Docker
+
+This application is containerized using Docker. You can build and run the application using Docker.
+
+## Building the Docker Image
+
+To build the Docker image, navigate to the project directory and run:
+
+docker image build -t amper_steffi_coding_assignment11 .
+
+This command builds a Docker image with the tag amper_steffi_coding_assignment11.
+
+### Running the Docker Container
+
+To run the Docker container, use the following command:
+
+docker run -dp 7775:3000 --name amper_steffi_coding_assignment11 amper_steffi_coding_assignment11
